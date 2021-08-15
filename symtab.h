@@ -1,6 +1,6 @@
 #ifndef SYMTAB_H
 #define SYMTAB_H
-#include "../node.h"
+#include "node.h"
 #define MAX_SYMTAB	256
 /* the type of a symbol table entry's value */
 enum symbol_type_e
