@@ -23,3 +23,15 @@ void init_symtab(void)
     symtab_stack.symtab_list[0] = global_symtab;
     global_symtab->level        = 0;
 }
+struct symtab_s *new_symtab(int level)
+{
+    struct symtab_s *symtab = malloc(sizeof(struct symtab_s));
+    if(!symtab)
+    {
+        fprintf(stderr, "fatal error: no memory for new symbol table\n");
+        exit(EXIT_FAILURE);
+    }
+    memset(symtab, 0, sizeof(struct symtab_s));
+    symtab->level = level;
+    return symtab;
+}
