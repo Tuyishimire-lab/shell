@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include "shell.h"
+#include "symtab.h"
 
 void print_prompt1(void)
 {   
