@@ -1,9 +1,9 @@
 #include <stdlib.h>
 #include <stdio.h>
 #include <string.h>
-#include "../shell.h"
-#include "../node.h"
-#include "../parser.h"
+#include "shell.h"
+#include "node.h"
+#include "parser.h"
 #include "symtab.h"
 struct symtab_stack_s symtab_stack;
 int    symtab_level;
