@@ -1,4 +1,4 @@
-#include "../shell.h"
+#include "shell.h"
 struct builtin_s builtins[] =
 {   
     { "dump"    , dump       },
