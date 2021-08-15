@@ -1,6 +1,6 @@
 #include <string.h>
 #include "shell.h"
-#include "symtab/symtab.h"
+#include "symtab.h"
 extern char **environ;
 void initsh(void)
 {
